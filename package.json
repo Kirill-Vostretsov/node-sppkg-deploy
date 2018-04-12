@@ -1,5 +1,5 @@
 {
-  "name": "node-sppkg-deploy",
+  "name": "@dlw-digitalworkplace/node-sppkg-deploy",
   "version": "1.2.0",
   "description": "This gulp plugin allows you to deploy SharePoint packages in the AppCatalog.",
   "main": "dist/index.js",
@@ -8,13 +8,7 @@
     "test": "tsc && tsc ./test/index.ts --sourceMap true --lib es2017 && node ./test/index.js",
     "prepublishOnly": "tsc"
   },
-  "keywords": [
-    "SharePoint",
-    "SharePoint",
-    "Framework",
-    "SPFx",
-    "Gulp"
-  ],
+  "keywords": ["SharePoint", "SharePoint", "Framework", "SPFx", "Gulp"],
   "author": "Elio Struyf",
   "license": "MIT",
   "dependencies": {
@@ -26,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/estruyf/node-sppkg-deploy"
+    "url": "https://github.com/dlw-digitalworkplace/node-sppkg-deploy"
   },
   "bugs": {
-    "url": "https://github.com/estruyf/node-sppkg-deploy/issues"
+    "url": "https://github.com/dlw-digitalworkplace/node-sppkg-deploy/issues"
   },
-  "homepage": "https://github.com/estruyf/node-sppkg-deploy",
+  "homepage": "https://github.com/dlw-digitalworkplace/node-sppkg-deploy",
   "maintainers": [
     {
       "name": "Elio Struyf",
